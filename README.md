@@ -1,15 +1,15 @@
 # Email-Campaign-Effectiveness-Prediction
 
-Problem Statement:
+# Problem Statement:
 
 Small to medium business owners are using Gmail-based email marketing strategies to convert prospective customers into leads,
 but they are unable to track which emails are being ignored, read, or acknowledged by the reader. They want to create a machine 
 learning model to help characterize and track these emails. 
 
-Objective :
+# Objective :
 The main objective is to improve the effectiveness of their email marketing efforts and increase customer retention.
 
-Variables Description:
+# Dataset Description:
 
 * Email_Id - Email id of customer
 
@@ -34,4 +34,22 @@ Variables Description:
 * Total_Images - Total Number of images in the email
 
 * Email_Status - Our target variable which contains whether the mail was ignored, read, acknowledged by the reader
+
+# Project Work flow :-
+* Importing Neccessary Libraries
+* Data Wrangling
+* EDA 
+* Features Engineering and Data preprocesing
+* Ml Model
+
+# Algorithms used 
+* Logistic Regression
+* Random Forest Classifer
+* XGBoost
+
+# Result
+XGBoost Algorithm worked in the best way possible with such imbalanced data with outliers with F1 Score of 0.75 on the test set.
+
+
+
 
